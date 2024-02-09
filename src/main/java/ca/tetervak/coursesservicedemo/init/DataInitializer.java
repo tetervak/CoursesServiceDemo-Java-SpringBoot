@@ -1,9 +1,9 @@
-package ca.tetervak.coursesdemo.init;
+package ca.tetervak.coursesservicedemo.init;
 
-import ca.tetervak.coursesdemo.domain.Course;
-import ca.tetervak.coursesdemo.domain.Student;
-import ca.tetervak.coursesdemo.repository.CourseRepository;
-import ca.tetervak.coursesdemo.repository.StudentRepository;
+import ca.tetervak.coursesservicedemo.domain.Course;
+import ca.tetervak.coursesservicedemo.domain.Student;
+import ca.tetervak.coursesservicedemo.repository.CourseRepository;
+import ca.tetervak.coursesservicedemo.repository.StudentRepository;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 

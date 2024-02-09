@@ -1,13 +1,13 @@
-package ca.tetervak.coursesdemo;
+package ca.tetervak.coursesservicedemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoursesDemoApplication {
+public class CoursesServiceDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CoursesDemoApplication.class, args);
+        SpringApplication.run(CoursesServiceDemoApplication.class, args);
     }
 
 }

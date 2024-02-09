@@ -1,4 +1,4 @@
-package ca.tetervak.coursesdemo.domain;
+package ca.tetervak.coursesservicedemo.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
