@@ -2,7 +2,10 @@ package ca.tetervak.coursesdemo.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
+
+import java.util.List;
 
 @Entity
 @Table(name="courses")
@@ -12,6 +15,9 @@ public class Course {
     String code = "";
 
     String name = "";
+
+    @ManyToMany(mappedBy = "courses")
+    List<Student> students;
 
     public Course() {
     }
@@ -23,6 +29,14 @@ public class Course {
 
     public String getCode() {
         return code;
+    }
+
+    public List<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(List<Student> students) {
+        this.students = students;
     }
 
     public void setCode(String code) {
